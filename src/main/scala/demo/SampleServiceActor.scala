@@ -64,7 +64,7 @@ trait SampleRoute extends HttpService {
             }
         } ~
           get {
-              complete("I'm stupid!")
+              complete("I exist!")
           }
     }
 }
