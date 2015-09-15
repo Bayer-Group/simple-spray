@@ -45,7 +45,7 @@ trait SampleRoute extends HttpService {
         } ~
         path("reactive") {
             get {
-                complete(future { "I'm reactive!" })
+                complete(Future { "I'm reactive!" })
             }
         } ~
         pathPrefix("junk") {
